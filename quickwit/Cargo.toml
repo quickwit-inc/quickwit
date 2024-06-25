@@ -198,7 +198,7 @@ rdkafka = { version = "0.33", default-features = false, features = [
 ] }
 regex = "1.10.0"
 regex-syntax = "0.8"
-reqwest = { version = "0.11", default-features = false, features = [
+reqwest = { version = "0.12", default-features = false, features = [
   "json",
   "rustls-tls",
 ] }
@@ -291,8 +291,8 @@ azure_storage_blobs = { version = "0.13.0", default-features = false, features =
   "enable_reqwest_rustls",
 ] }
 
-opendal = { version = "0.44", default-features = false }
-reqsign = { version = "0.14", default-features = false }
+opendal = { version = "0.47", default-features = false }
+reqsign = { version = "0.15", default-features = false }
 
 quickwit-actors = { path = "quickwit-actors" }
 quickwit-aws = { path = "quickwit-aws" }
