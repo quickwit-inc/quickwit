@@ -6588,6 +6588,7 @@ dependencies = [
  "quickwit-common",
  "quickwit-doc-mapper",
  "quickwit-proto",
+ "rand 0.8.5",
  "regex",
  "serde",
  "serde_json",
